@@ -44,8 +44,8 @@ function Navbar() {
                         {isDropdownOpen && (
                             <div className="bg-white shadow-lg rounded-lg mt-2 py-2 cursor-pointer">
                                 <a onClick={() => navigate('/atasan')} className="md:text-xl block px-4 py-2 text-gray-700 hover:bg-pink-100">Atasan</a>
-                                <a onClick={() => navigate('/bawahan')} href="./kategori/bawahan.html" className="md:text-xl block px-4 py-2 text-gray-700 hover:bg-pink-100">Bawahan</a>
-                                <a onClick={() => navigate('/hijab')} href="./kategori/hijab.html" className="md:text-xl block px-4 py-2 text-gray-700 hover:bg-pink-100">Hijab</a>
+                                <a onClick={() => navigate('/bawahan')} className="md:text-xl block px-4 py-2 text-gray-700 hover:bg-pink-100">Bawahan</a>
+                                <a onClick={() => navigate('/hijab')}className="md:text-xl block px-4 py-2 text-gray-700 hover:bg-pink-100">Hijab</a>
                             </div>
                         )}
                     </div>
