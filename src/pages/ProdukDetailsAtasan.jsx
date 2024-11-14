@@ -1,7 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import ProductCardAtasan from '../components/ProdukAtasan';
-import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import WhatsApp from '../components/Whatsapp';
 
@@ -262,7 +261,6 @@ const ProductDetailAtasan = () => {
 
     return (
         <>
-            <Navbar />
             <ProductCardAtasan product={product} /> {/* Mengoper data produk ke ProductCardAtasan */}
             <WhatsApp />
             <Footer />

@@ -9,11 +9,13 @@ import Marketplace from './pages/Marketplace'
 import Bawahan from './pages/Bawahan'
 import ProductDetailBawahan from './pages/ProdukDetailsBawahan'
 import Hijab from './pages/Hijab'
+import Navbar from './components/Navbar'
 
 function App() {
 
   return (
     <Router>
+      <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path="/atasan" element={<Atasan />} />

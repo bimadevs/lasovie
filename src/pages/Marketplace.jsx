@@ -2,14 +2,12 @@ import React from 'react';
 import tokopediaLogo from '/images/tokopedia.png'; // Ubah path sesuai lokasi gambar
 import shopeeLogo from '/images/shopee.png'; // Ubah path sesuai lokasi gambar
 import bukalapakLogo from '/images/bukalapak.png'; // Ubah path sesuai lokasi gambar
-import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import WhatsApp from '../components/Whatsapp';
 
 const Marketplace = () => {
     return (
         <>
-        <Navbar />
         <div className="flex justify-center items-center h-screen">
             <div className="text-center p-6 bg-white shadow-lg rounded-lg max-w-lg">
                 <h1 className="text-3xl font-extrabold  mb-4">
