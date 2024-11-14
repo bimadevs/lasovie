@@ -13,8 +13,8 @@ const ProductCardBawahan = ({ product }) => {
 
                 {/* Content Section */}
                 <div className="w-full md:w-1/2 md:pl-8 mt-4 md:mt-0">
-                    <h1 className="text-2xl lg:text-3xl font-semibold text-pink-500">{product.title}</h1>
-                    <p className="text-pink-400 mb-4 text-lg">{product.description}</p>
+                    <h1 className="text-2xl lg:text-3xl font-semibold ">{product.title}</h1>
+                    <p className=" mb-4 text-lg">{product.description}</p>
                     <p className="font-medium text-gray-700 mb-4">{product.brand}</p>
 
                     <ul className="list-disc pl-5 mb-4 text-gray-700 space-y-1">
@@ -27,14 +27,14 @@ const ProductCardBawahan = ({ product }) => {
                     <p className="font-semibold text-gray-700 mb-4">{product.shoppingMessage}</p>
 
                     <a onClick={() => navigate("/market")}>
-                        <button className="bg-pink-500 hover:bg-pink-600 text-white font-semibold px-5 py-2 rounded-lg transition duration-200">
+                        <button className="bg-slate-500 hover:bg-slate-600 text-white font-semibold px-5 py-2 rounded-lg transition duration-200">
                             Where To Buy
                         </button>
                     </a>
 
                     <div className="mt-6">
                         <span className="text-gray-500">Category:</span>
-                        <a onClick={() => navigate("/bawahan")} className="cursor-pointer text-pink-500 hover:underline">{product.category}</a>
+                        <a onClick={() => navigate("/bawahan")} className="cursor-pointer  hover:underline">{product.category}</a>
                     </div>
                 </div>
             </div>

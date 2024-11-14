@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import ProductCardBawahan from '../components/ProdukBawahan';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import WhatsApp from '../components/Whatsapp';
 
 const ProductDetailBawahan = () => {
     const { id } = useParams(); // Mengambil ID dari URL
@@ -134,6 +135,7 @@ const ProductDetailBawahan = () => {
         <>
             <Navbar />
             <ProductCardBawahan product={product} /> {/* Mengoper data produk ke ProductCardBawahan */}
+            <WhatsApp />
             <Footer />
         </>
     );

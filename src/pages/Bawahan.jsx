@@ -2,6 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import WhatsApp from '../components/Whatsapp';
 
 function Bawahan() {
     const navigate = useNavigate();
@@ -20,7 +21,7 @@ function Bawahan() {
             <Navbar />
             <section className="py-16 bg-gray-100">
                 <div className="container mx-auto px-4">
-                    <h2 className="text-3xl md:text-4xl font-bold text-pink-500 mb-12 text-center">Produk Atasan</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold  mb-12 text-center">Produk Atasan</h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                         {products.map((product) => (
                             <div key={product.id} className="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-200">
@@ -29,7 +30,7 @@ function Bawahan() {
                                     <h3 className="font-semibold text-lg text-gray-700">{product.title}</h3>
                                     <p className="text-gray-500 mt-2">{product.description}</p>
                                     <div className="flex items-center justify-between mt-4">
-                                        <button onClick={() => navigate(`/bawahan/${product.id}`)} className="bg-pink-500 hover:bg-pink-600 text-white text-sm font-medium px-3 py-1 rounded-lg">
+                                        <button onClick={() => navigate(`/bawahan/${product.id}`)} className="bg-slate-500 hover:bg-slate-600 text-white text-sm font-medium px-3 py-1 rounded-lg">
                                             Read More
                                         </button>
                                     </div>
@@ -39,6 +40,7 @@ function Bawahan() {
                     </div>
                 </div>
             </section>
+            <WhatsApp />
             <Footer />
         </>
     );

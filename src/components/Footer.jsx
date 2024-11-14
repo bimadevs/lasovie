@@ -21,7 +21,7 @@ function Footer() {
                         <h4 className="text-lg font-semibold text-gray-800 mb-2">Ikuti Kami</h4>
                         <div className="flex space-x-4">
                             {socialLinks.map((link, index) => (
-                                <a key={index} href={link.href} className="text-gray-600 hover:text-pink-400" aria-label={link.label}>
+                                <a key={index} href={link.href} className="text-gray-600 hover:" aria-label={link.label}>
                                     <i className={link.iconClass}></i>
                                 </a>
                             ))}
@@ -32,7 +32,7 @@ function Footer() {
                     <div className="w-full md:w-1/3">
                         <h4 className="text-lg font-semibold text-gray-800 mb-2">Kontak</h4>
                         <p className="text-gray-600">Email: info@Lasovie.com</p>
-                        <a href="#" className="text-gray-600 hover:text-pink-400">Kebijakan Privasi</a>
+                        <a href="#" className="text-gray-600 hover:">Kebijakan Privasi</a>
                     </div>
                 </div>
             </div>

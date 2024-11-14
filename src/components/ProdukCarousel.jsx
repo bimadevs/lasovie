@@ -55,16 +55,16 @@ function ProductCarousel() {
     ];
 
     return (
-        <div className="flex overflow-x-scroll space-x-4 p-4 scrollbar-hide">
+        <div className="flex overflow-x-scroll scroll-smooth snap-mandatory snap-x space-x-4 p-4 scrollbar-hide">
             {products.map((product, index) => (
-                <div key={index} className="min-w-[250px] max-w-xs bg-white shadow-md rounded-lg overflow-hidden">
+                <div key={index} className="min-w-[250px] snap-center  max-w-xs bg-white  shadow-xl rounded-lg overflow-hidden">
                     <img src={product.imageSrc} alt="Product Image" className="w-full h-48 object-cover" />
                     <div className="p-4">
                         <h2 className="font-semibold text-lg">{product.title}</h2>
                         <p className="text-gray-500 mt-2">{product.description}</p>
                         <div className="flex items-center justify-between mt-4">
                             <a onClick={() => navigate(`${product.path} ${product.id}`)}>
-                                <button className="bg-pink-400 hover:bg-pink-500 text-white text-sm px-3 py-1 rounded">
+                                <button className="bg-slate-400 hover:bg-slate-500 text-white text-sm px-3 py-1 rounded">
                                     Read More
                                 </button>
                             </a>

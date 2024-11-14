@@ -4,6 +4,7 @@ import shopeeLogo from '/images/shopee.png'; // Ubah path sesuai lokasi gambar
 import bukalapakLogo from '/images/bukalapak.png'; // Ubah path sesuai lokasi gambar
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import WhatsApp from '../components/Whatsapp';
 
 const Marketplace = () => {
     return (
@@ -11,7 +12,7 @@ const Marketplace = () => {
         <Navbar />
         <div className="flex justify-center items-center h-screen">
             <div className="text-center p-6 bg-white shadow-lg rounded-lg max-w-lg">
-                <h1 className="text-3xl font-extrabold text-pink-500 mb-4">
+                <h1 className="text-3xl font-extrabold  mb-4">
                     Marketplace & E-commerce Official Store
                 </h1>
                 <p className="text-lg text-gray-600 mb-8">
@@ -33,6 +34,7 @@ const Marketplace = () => {
                 </div>
             </div>
         </div>
+        <WhatsApp />
         <Footer />
         </>
     );

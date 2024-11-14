@@ -7,7 +7,7 @@ function KategoriProduk() {
     const categories = [
         { name: 'Atasan', path: '/atasan', imageSrc: 'images/atasan/produk-1.jpeg' },
         { name: 'Bawahan', path: '/bawahan', imageSrc: 'images/bawahan/produk-1.jpeg' },
-        { name: 'Hijab', path: '/hijab', imageSrc: 'https://via.placeholder.com/600x400' },
+        { name: 'Hijab', path: '/hijab', imageSrc: 'images/comingsoon.jpg' },
     ];
 
     const handleNavigation = (path) => {
@@ -31,8 +31,8 @@ function KategoriProduk() {
                                     alt={category.name}
                                     className="w-full h-64 object-cover transition duration-300 group-hover:scale-110"
                                 />
-                                <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center transition duration-300 group-hover:bg-opacity-50">
-                                    <h3 className="text-white text-2xl font-semibold">{category.name}</h3>
+                                <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center transition duration-300 group-hover:bg-opacity-50 ">
+                                    <h3 className="text-white group-hover: transition ease-in-out duration-300  text-2xl font-semibold">{category.name}</h3>
                                 </div>
                             </div>
                         </div>
