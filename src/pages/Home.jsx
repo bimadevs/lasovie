@@ -5,6 +5,7 @@ import ProductCarousel from '../components/ProdukCarousel'
 import Footer from '../components/Footer'
 import WhatsApp from '../components/Whatsapp'
 import Intro from '../components/Intro'
+import Carousel from '../components/Carousel'
 
 
 function Home() {
@@ -12,7 +13,7 @@ function Home() {
   return (
     <>
       <Hero />
-      <Intro />
+      <Carousel />
       <KategoriProduk />
       <ProductCarousel />
       <WhatsApp />
