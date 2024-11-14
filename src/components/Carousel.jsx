@@ -22,12 +22,22 @@ const Carousel = () => {
 
     return (
         <div className="relative w-full max-w-4xl mx-auto">
-            <div className="relative">
-                <img
-                    src={images[currentIndex]}
-                    alt={`Slide ${currentIndex + 1}`}
-                    className="w-full h-auto rounded-lg"
-                />
+            <div className="relative overflow-hidden">
+                <div
+                    className="flex transition-transform duration-1000 ease-in-out"
+                    style={{
+                        transform: `translateX(-${currentIndex * 100}%)`,
+                    }}
+                >
+                    {images.map((image, index) => (
+                        <img
+                            key={index}
+                            src={image}
+                            alt={`Slide ${index + 1}`}
+                            className="w-full h-auto rounded-lg object-cover"
+                        />
+                    ))}
+                </div>
             </div>
 
             {/* Navigasi Dot */}
@@ -36,7 +46,9 @@ const Carousel = () => {
                     <div
                         key={index}
                         onClick={() => setCurrentIndex(index)}
-                        className={`w-2 h-2 md:w-3 md:h-3 rounded-full cursor-pointer ${currentIndex === index ? 'bg-black' : 'bg-gray-300'}`}
+                        className={`w-2 h-2 md:w-3 md:h-3 rounded-full cursor-pointer transition-colors duration-300 ${
+                            currentIndex === index ? 'bg-black' : 'bg-gray-300'
+                        }`}
                     ></div>
                 ))}
             </div>
