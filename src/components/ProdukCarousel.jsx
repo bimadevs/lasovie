@@ -55,7 +55,7 @@ function ProductCarousel() {
     ];
 
     return (
-        <div data-aos="fade-left" className="flex overflow-x-scroll scroll-smooth snap-mandatory snap-x space-x-4 p-4 scrollbar-hide">
+        <div  className="flex overflow-x-scroll scroll-smooth snap-mandatory snap-x space-x-4 p-4 scrollbar-hide">
             {products.map((product, index) => (
                 <div key={index} className="min-w-[250px] snap-center  max-w-xs bg-white  shadow-lg rounded-lg overflow-hidden">
                     <img src={product.imageSrc} alt="Product Image" className="w-full h-48 object-cover" />
