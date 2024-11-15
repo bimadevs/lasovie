@@ -1,9 +1,9 @@
 import React from 'react';
 import {useNavigate} from 'react-router-dom'
 
-import tokopediaLogo from '/images/tokopedia.png'; // Ubah path sesuai lokasi gambar
-import shopeeLogo from '/images/shopee.png'; // Ubah path sesuai lokasi gambar
-import bukalapakLogo from '/images/bukalapak.png'; // Ubah path sesuai lokasi gambar
+import tokopediaLogo from '/images/market/tokopedia.png'; // Ubah path sesuai lokasi gambar
+import shopeeLogo from '/images/market/shopee.png'; // Ubah path sesuai lokasi gambar
+import bukalapakLogo from '/images/market/bukalapak.png'; // Ubah path sesuai lokasi gambar
 import Footer from '../components/Footer';
 import WhatsApp from '../components/Whatsapp';
 
