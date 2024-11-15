@@ -16,7 +16,7 @@ function Navbar() {
     };
 
     return (
-        <nav className="sticky top-0 left-0 right-0 z-50 bg-white shadow-md">
+        <nav  className="sticky  top-0 left-0 right-0 z-50 bg-white shadow-md">
             <div className="container mx-auto px-4 py-4 flex justify-between items-center">
                 {/* Hamburger Menu Button - Left */}
                 <button
@@ -44,7 +44,7 @@ function Navbar() {
                     <img
                         src="images/logo.png"
                         alt="Lasovie Logo"
-                        className='w-20 h-10 object-contain' // Adjust size here
+                        className='w-20 h-10 object-contain bg-white' // Adjust size here
                     />
                 </a>
 

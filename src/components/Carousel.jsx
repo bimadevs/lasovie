@@ -33,7 +33,7 @@ const Carousel = () => {
                         <img
                             key={index}
                             src={image}
-                            alt={`Slide ${index + 1}`}
+                            alt={`Lasovie ${index + 1}`}
                             className="w-full h-auto rounded-lg object-cover"
                         />
                     ))}

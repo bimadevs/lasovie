@@ -7,11 +7,11 @@ function Bawahan() {
     const navigate = useNavigate();
 
     const products = [
-        { id: 1, image: 'bawahan/produk-1.jpeg', title: 'Rok Plisket Kembang Lilly Daily ', description: 'Bahan Skin Premium' },
-        { id: 2, image: 'bawahan/produk-2.jpeg', title: 'Rok Plisket Kembang Lilly Daily ', description: 'Bahan Skin Premium' },
-        { id: 3, image: 'bawahan/produk-3.jpeg', title: 'Rok Plisket Kembang Lilly Daily ', description: 'Bahan Skin Premium' },
-        { id: 4, image: 'bawahan/produk-4.jpeg', title: 'Rok Plisket Kembang Lilly Daily ', description: 'Bahan Skin Premium' },
-        { id: 5, image: 'bawahan/produk-5.jpeg', title: 'Rok Plisket Kembang Lilly Daily ', description: 'Bahan Skin Premium' },
+        { id: 1, image: 'bawahan/produk-1.jpeg', title: 'Rok Plisket Kembang Lilly Daily Lasovie ', description: 'Bahan Skin Premium' },
+        { id: 2, image: 'bawahan/produk-2.jpeg', title: 'Rok Plisket Kembang Lilly Daily Lasovie ', description: 'Bahan Skin Premium' },
+        { id: 3, image: 'bawahan/produk-3.jpeg', title: 'Rok Plisket Kembang Lilly Daily Lasovie ', description: 'Bahan Skin Premium' },
+        { id: 4, image: 'bawahan/produk-4.jpeg', title: 'Rok Plisket Kembang Lilly Daily Lasovie ', description: 'Bahan Skin Premium' },
+        { id: 5, image: 'bawahan/produk-5.jpeg', title: 'Rok Plisket Kembang Lilly Daily Lasovie ', description: 'Bahan Skin Premium' },
         // Tambahkan produk lainnya...
     ];
 

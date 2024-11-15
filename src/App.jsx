@@ -10,12 +10,15 @@ import Bawahan from './pages/Bawahan'
 import ProductDetailBawahan from './pages/ProdukDetailsBawahan'
 import Hijab from './pages/Hijab'
 import Navbar from './components/Navbar'
+import ScrollTop from './components/ScrollTop'
+import Undifend from './pages/Undifend'
 
 function App() {
 
   return (
     <Router>
       <Navbar />
+      <ScrollTop />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path="/atasan" element={<Atasan />} />
@@ -24,6 +27,7 @@ function App() {
         <Route path="/bawahan/:id" element={<ProductDetailBawahan />} /> {/* Rute untuk detail produk */}
         <Route path="/hijab" element={<Hijab />} />
         <Route path="/market" element={<Marketplace />} /> {/* Rute untuk detail produk */}
+        <Route path="/undifined" element={<Undifend />} /> {/* Rute untuk detail produk */}
       </Routes>
     </Router>
   )
