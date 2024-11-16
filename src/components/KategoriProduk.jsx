@@ -5,9 +5,9 @@ function KategoriProduk() {
     const navigate = useNavigate();
 
     const categories = [
-        { name: 'Kategori Atasan Lasovie', path: '/atasan', imageSrc: 'images/atasan/produk-1.jpeg' },
-        { name: 'Kategori Bawahan Lasovie', path: '/bawahan', imageSrc: 'images/bawahan/produk-1.jpeg' },
-        { name: 'Kategori Hijab Lasovie', path: '/hijab', imageSrc: 'images/comingsoon.jpg' },
+        { name: 'Kategori Atasan ', path: '/atasan', imageSrc: 'images/atasan/produk-1.jpeg' },
+        { name: 'Kategori Bawahan ', path: '/bawahan', imageSrc: 'images/bawahan/produk-1.jpeg' },
+        { name: 'Kategori Hijab ', path: '/hijab', imageSrc: 'images/comingsoon.jpg' },
     ];
 
     const handleNavigation = (path) => {
