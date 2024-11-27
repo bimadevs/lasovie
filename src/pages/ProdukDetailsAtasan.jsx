@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import WhatsApp from '../components/Whatsapp';
 
 const ProductDetailAtasan = () => {
-    const id  = localStorage.getItem('Id'); // Mengambil ID dari URL
+    const { id } = useParams(); // Mengambil ID dari URL
 
     // Data produk yang sama seperti di Atasan
     const products = [

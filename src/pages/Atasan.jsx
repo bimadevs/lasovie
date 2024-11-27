@@ -22,12 +22,6 @@ function Atasan() {
         // Tambahkan produk lainnya...
     ];
 
-    const handleNavigate = (id) => {
-        navigate(`/atasan/${id}`);
-        localStorage.setItem('Id', id );
-        console.log(localStorage.getItem('Id'))
-    };
-
     return (
         <>
             <section className="py-16 bg-gray-100">
@@ -41,7 +35,7 @@ function Atasan() {
                                     <h3 className="font-semibold text-lg text-gray-700">{product.title}</h3>
                                     <p className="text-gray-500 mt-2">{product.description}</p>
                                     <div className="flex items-center justify-between mt-4">
-                                        <button  onClick={() => handleNavigate(product.id)} className="bg-slate-500 hover:bg-slate-600 text-white text-sm font-medium px-3 py-1 rounded-lg">
+                                        <button onClick={() => navigate(`/atasan/${product.id}`)} className="bg-slate-500 hover:bg-slate-600 text-white text-sm font-medium px-3 py-1 rounded-lg">
                                             Read More
                                         </button>
                                     </div>
