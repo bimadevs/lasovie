@@ -42,7 +42,7 @@ function Navbar() {
                 {/* Logo Only - Center */}
                 <a onClick={() => navigate('/')} className="flex cursor-pointer items-center mx-auto">
                     <img
-                        src="images/logo.png"
+                        src="/images/logo.png"
                         alt="Lasovie Logo"
                         className='w-20 h-10 object-contain bg-white' // Adjust size here
                     />

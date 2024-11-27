@@ -9,7 +9,7 @@ function ProductCarousel() {
             title: 'Inara Dress Lengan Kancing Oversize',
             description: 'Bahan Knit Premium Tebal Halus',
             link: './produk/atasan/produk1.html',
-            imageSrc: 'images/atasan/produk-1.jpeg',
+            imageSrc: '/images/atasan/produk-1.jpeg',
             path : '/atasan/'
         },
         {
@@ -17,7 +17,7 @@ function ProductCarousel() {
             title: 'Inara Dress Lengan Kancing Oversize',
             description: 'Bahan Knit Premium Tebal Halus',
             link: './produk/atasan/produk2.html',
-            imageSrc: 'images/atasan/produk-2.jpeg',
+            imageSrc: '/images/atasan/produk-2.jpeg',
             path : '/atasan/'
         },
         {
@@ -25,7 +25,7 @@ function ProductCarousel() {
             title: 'Inara Dress Lengan Kancing Oversize',
             description: 'Bahan Knit Premium Tebal Halus',
             link: './produk/atasan/produk3.html',
-            imageSrc: 'images/atasan/produk-3.jpeg',
+            imageSrc: '/images/atasan/produk-3.jpeg',
             path : '/atasan/'
         },
         {
@@ -33,7 +33,7 @@ function ProductCarousel() {
             title: 'Rok Plisket Kembang Lilly Daily',
             description: 'Bahan Skin Premium',
             link: './produk/bawahan/produk4.html',
-            imageSrc: 'images/bawahan/produk-4.jpeg',
+            imageSrc: '/images/bawahan/produk-4.jpeg',
             path : '/bawahan/'
         },
         {
@@ -41,7 +41,7 @@ function ProductCarousel() {
             title: 'Rok Plisket Kembang Lilly Daily',
             description: 'Bahan Skin Premium',
             link: './produk/bawahan/produk5.html',
-            imageSrc: 'images/bawahan/produk-5.jpeg',
+            imageSrc: '/images/bawahan/produk-5.jpeg',
             path : '/bawahan/'
         },
         {
@@ -49,7 +49,7 @@ function ProductCarousel() {
             title: 'Rok Plisket Kembang Lilly Daily',
             description: 'Bahan Skin Premium',
             link: './produk/bawahan/produk2.html',
-            imageSrc: 'images/bawahan/produk-2.jpeg',
+            imageSrc: '/images/bawahan/produk-2.jpeg',
             path : '/bawahan/'
         },
     ];

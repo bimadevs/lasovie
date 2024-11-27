@@ -30,7 +30,7 @@ function Atasan() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                         {products.map((product) => (
                             <div key={product.id} className="bg-white shadow-lg rounded-lg overflow-hidden transform hover:scale-105 transition duration-200">
-                                <img src={`images/${product.image}`} alt={product.title} className="w-full h-48 object-cover" />
+                                <img src={`/images/${product.image}`} alt={product.title} className="w-full h-48 object-cover" />
                                 <div className="p-4">
                                     <h3 className="font-semibold text-lg text-gray-700">{product.title}</h3>
                                     <p className="text-gray-500 mt-2">{product.description}</p>

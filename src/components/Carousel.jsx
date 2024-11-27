@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 
 const Carousel = () => {
     const images = [
-        'images/intro/intro.jpeg',
-        'images/intro/intro2.jpeg',
-        'images/intro/about.jpeg',
-        'images/intro/about2.jpeg',
+        '/images/intro/intro.jpeg',
+        '/images/intro/intro2.jpeg',
+        '/images/intro/about.jpeg',
+        '/images/intro/about2.jpeg',
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
